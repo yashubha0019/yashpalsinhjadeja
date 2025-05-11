@@ -205,7 +205,7 @@
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <p class="text-lg text-gray-300">© 2025 Yashpalsinh Jadeja</p>
       <div class="space-x-4">
-        <a href="(https://www.linkedin.com/in/yashpalsinh-jadeja-023a4b302/)" class="social-icon text-2xl text-teal-400"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/yashpalsinh-jadeja-023a4b302/" class="social-icon text-2xl text-teal-400"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.github.com" class="social-icon text-2xl text-teal-400"><i class="fab fa-github"></i></a>
         <a href="https://www.twitter.com" class="social-icon text-2xl text-teal-400"><i class="fab fa-twitter"></i></a>
         <a href="https://www.instagram.com/yashubha_jadeja_0019?igsh=NDEzbWowc3c5aW01" class="social-icon text-2xl text-teal-400"><i class="fab fa-instagram"></i></a>
