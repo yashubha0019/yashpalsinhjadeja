@@ -104,7 +104,7 @@
   </header>
 
   <section class="flex flex-col items-center justify-center py-16">
-    <img src="yashpalsinh.jpg" alt="Yashpalsinh" class="rounded-full w-64 h-64 object-cover border-8 border-teal-400 shadow-lg scale-reveal">
+    <img src="yashubha.jpg" alt="Yashpalsinh" class="rounded-full w-64 h-64 object-cover border-8 border-teal-400 shadow-lg scale-reveal">
     <h2 class="mt-6 text-3xl font-semibold text-white reveal">Welcome to my space!</h2>
   </section>
 
@@ -205,7 +205,7 @@
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <p class="text-lg text-gray-300">© 2025 Yashpalsinh Jadeja</p>
       <div class="space-x-4">
-        <a href="https://www.linkedin.com/in/yashpalsinh-jadeja-023a4b302/" class="social-icon text-2xl text-teal-400"><i class="fab fa-linkedin"></i></a>
+        <a href="www.linkedin.com/in/yashpalsinh-jadeja-023a4b302/" class="social-icon text-2xl text-teal-400"><i class="fab fa-linkedin"></i></a>
         <a href="https://www.github.com" class="social-icon text-2xl text-teal-400"><i class="fab fa-github"></i></a>
         <a href="https://www.twitter.com" class="social-icon text-2xl text-teal-400"><i class="fab fa-twitter"></i></a>
         <a href="https://www.instagram.com/yashubha_jadeja_0019?igsh=NDEzbWowc3c5aW01" class="social-icon text-2xl text-teal-400"><i class="fab fa-instagram"></i></a>
