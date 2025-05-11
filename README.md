@@ -104,7 +104,8 @@
   </header>
 
   <section class="flex flex-col items-center justify-center py-16">
-    <img src="yashubha.jpg" alt="Yashpalsinh" class="rounded-full w-64 h-64 object-cover border-8 border-teal-400 shadow-lg scale-reveal">
+    <img src="yashubha![image](https://github.com/user-attachments/assets/19780a6a-4463-49ed-b748-6301f501abc0)
+.jpg" alt="Yashpalsinh" class="rounded-full w-64 h-64 object-cover border-8 border-teal-400 shadow-lg scale-reveal">
     <h2 class="mt-6 text-3xl font-semibold text-white reveal">Welcome to my space!</h2>
   </section>
 
