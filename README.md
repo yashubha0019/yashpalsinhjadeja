@@ -7,7 +7,7 @@
   <meta name="author" content="yashpalsinh jadeja">
   <meta property="og:title" content="yashpalsinh jadeja | Portfolio">
   <meta property="og:description" content="Explore yashpalsinh jadeja's portfolio showcasing his skills, projects, and accomplishments in tech and motivation.">
-  <meta property="og:image" content="yashpalsinh.jpg">
+  <meta property="og:image" content="kishan.jpg">
   <meta property="og:url" content="https://yashpalsinhjadeja.com">
   <title>yashpalsinh jadeja | Portfolio</title>
 
@@ -87,6 +87,7 @@
       </ul>
     </div>
 
+    
     <div id="mobile-menu" class="md:hidden hidden px-6 pb-4">
       <ul class="flex flex-col space-y-4 text-gray-300 text-lg">
         <li><a href="#about" class="nav-link">About</a></li>
@@ -98,16 +99,19 @@
     </div>
   </nav>
 
+  
   <header class="text-center py-32 bg-gradient-to-r from-teal-600 to-teal-800">
     <h1 class="text-5xl font-extrabold text-white">YASHPALSINH JADEJA</h1>
     <p class="text-xl text-gray-200 mt-4">Tech Enthusiast | Motivator | Hustler</p>
   </header>
 
+  
   <section class="flex flex-col items-center justify-center py-16">
-    <img src="yashubha.jpg" alt="Yashpalsinh" class="rounded-full w-64 h-64 object-cover border-8 border-teal-400 shadow-lg scale-reveal">
+    <img src="yashpalsinh.jpg" alt="Yashpalsinh" class="rounded-full w-64 h-64 object-cover border-8 border-teal-400 shadow-lg scale-reveal">
     <h2 class="mt-6 text-3xl font-semibold text-white reveal">Welcome to my space!</h2>
   </section>
 
+  <!-- About Section -->
   <section id="about" class="max-w-4xl mx-auto py-16 px-6">
     <h2 class="text-4xl font-bold text-teal-400 mb-6 text-center reveal">About Me</h2>
     <p class="text-lg text-gray-300 text-center reveal">
@@ -115,6 +119,7 @@
     </p>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills" class="bg-gray-800 py-16 px-6">
     <div class="max-w-6xl mx-auto">
       <h2 class="text-4xl font-bold text-teal-400 mb-6 text-center reveal">Skills</h2>
@@ -129,7 +134,7 @@
         </div>
         <div class="card text-center reveal">
           <h3 class="text-xl font-semibold">JavaScript</h3>
-          <div class="progress-bar mt-4"><span style="width: 55%; background-color: #ff9800;">70%</span></div>
+          <div class="progress-bar mt-4"><span style="width: 55%; background-color: #ff9800;">55%</span></div>
         </div>
         <div class="card text-center reveal">
           <h3 class="text-xl font-semibold">React</h3>
@@ -147,6 +152,7 @@
     </div>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects" class="bg-gray-800 py-16 px-6">
     <div class="max-w-6xl mx-auto">
       <h2 class="text-4xl font-bold text-teal-400 mb-6 text-center reveal">My Projects</h2>
@@ -171,6 +177,7 @@
     </div>
   </section>
 
+  <!-- Announcements Section -->
   <section id="announcements" class="bg-gray-800 py-16 px-6">
     <div class="max-w-4xl mx-auto">
       <h2 class="text-4xl font-bold text-teal-400 mb-6 text-center reveal">Latest Announcements</h2>
@@ -184,6 +191,7 @@
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact" class="bg-gray-800 py-16 px-6">
     <div class="max-w-4xl mx-auto">
       <h2 class="text-4xl font-bold text-teal-400 mb-6 text-center reveal">Connect with Me</h2>
@@ -201,6 +209,7 @@
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="footer py-8">
     <div class="max-w-6xl mx-auto flex justify-between items-center">
       <p class="text-lg text-gray-300">© 2025 Yashpalsinh Jadeja</p>
@@ -216,30 +225,15 @@
   </footer>
 
   <script>
-    // Mobile menu toggle
+    ScrollReveal().reveal('.reveal', { delay: 300, distance: '50px', duration: 800 });
+    ScrollReveal().reveal('.scale-reveal', { delay: 300, distance: '50px', duration: 800 });
+
     const menuToggle = document.getElementById('menu-toggle');
     const mobileMenu = document.getElementById('mobile-menu');
 
     menuToggle.addEventListener('click', () => {
       mobileMenu.classList.toggle('hidden');
     });
-
-    // ScrollReveal animations
-    ScrollReveal().reveal('.reveal', {
-      distance: '50px',
-      duration: 1000,
-      easing: 'ease-out',
-      origin: 'bottom',
-      interval: 100
-    });
-
-    ScrollReveal().reveal('.scale-reveal', {
-      scale: 0.5,
-      duration: 1000,
-      easing: 'ease-out',
-      interval: 100
-    });
   </script>
-
 </body>
 </html>
